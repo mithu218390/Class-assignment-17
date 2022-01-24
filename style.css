@@ -1,0 +1,99 @@
+/**** NEDDED CSS ****/
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+    position: relative;
+    bottom: -4px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.fixed-width{
+    width: 1300px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+.clear::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.f-left{
+    float: left;
+}
+.f-right{
+    float: right;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.py-5{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+/**** HEADER SECTION ****/
+nav{
+    background: #000;
+    padding: 20px 0;
+}
+nav .logo{
+    width: 20%;
+}
+nav .logo a{}
+nav .logo a img{
+    width: 80px;
+}
+nav .menu{
+    width: 80%;
+    
+   
+}
+
+
+
+/**** DROPDOWN MENU ****/
+/* nav .menu ul li{
+    position: relative;
+}
+nav .menu ul li ul{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: black;
+    width: 170px;
+    text-align: left;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+    transform: scaleY(0);
+    transform-origin: top center;
+}
+nav .menu ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    transform: scaleY(1);
+}
+nav .menu ul li ul li{
+    display: block;
+    line-height: normal;
+}
+nav .menu ul li ul li a{
+    display: block;
+    padding: 10px 20px;
+}
+nav .menu ul li ul li:hover a{
+    background: #fff;
+    color: #000;
+} */
